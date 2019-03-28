@@ -1,0 +1,5 @@
+Check datasets in input folder on Kaggle
+
+from subprocess import check_output
+print(check_output(["ls", '../input/credit-scoring-sample']).decode("utf8"))
+
